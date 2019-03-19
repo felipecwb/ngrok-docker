@@ -3,10 +3,9 @@
 Checkout on [docker hub](https://hub.docker.com/r/felipecwb/ngrok).  
 
 Export your internal applications with [ngrok](https://ngrok.com).  
-
 You can read more on [ngrok docs](https://ngrok.com/docs)  
 
-This docker image uses ngrok user as default user.  
+This docker image uses a non-root user `ngrok` as default.  
 
 The configuration file is encountered: `/home/ngrok/.ngrok2/ngrok.yml`  
 You just need to overwrite to get the new configurations.  
