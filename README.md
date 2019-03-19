@@ -1,4 +1,6 @@
-# ngrok-docker
+# felipecwb/ngrok
+
+Checkout on [docker hub](https://hub.docker.com/r/felipecwb/ngrok).  
 
 Export your internal applications with [ngrok](https://ngrok.com).  
 
@@ -12,7 +14,7 @@ You just need to overwrite to get the new configurations.
 The entrypoint is the `ngrok` binary.  
 
 
-**Exemple:**  
+**Example:**  
 ```sh
 docker run --rm -it --link app -p 4040:4040 felipecwb/ngrok:latest http app:80
 ```
