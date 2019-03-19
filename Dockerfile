@@ -20,5 +20,5 @@ COPY ./ngrok.yml /home/ngrok/.ngrok2/ngrok.yml
 
 EXPOSE 4040
 
-ENTRYPOINT ngrok
+ENTRYPOINT ["ngrok"]
 
