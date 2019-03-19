@@ -14,14 +14,14 @@ You just need to overwrite to get the new configurations.
 The entrypoint is the `ngrok` binary.  
 
 
-### Examples:  
+### Examples:
 
-**docker run: **
+**`docker run`:**
 ```sh
 docker run --rm -it --link app -p 4040:4040 felipecwb/ngrok:latest http app:80
 ```
 
-**docker-compose: **
+**`docker-compose.yml`:**
 ```yml
 version: "3.7"
 
