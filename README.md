@@ -33,7 +33,7 @@ services:
 
     ngrok:
         image: felipecwb/ngrok:latest
-        command: 'http app:8080'
+        command: http app:8080
         ports:
             - 4040:4040
 ```
