@@ -1,0 +1,9 @@
+console_ui: true
+web_addr: 0.0.0.0:4040
+
+log: stdout
+log_level: info
+log_format: logfmt
+
+update: false
+update_channel: stable
